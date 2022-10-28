@@ -1,0 +1,19 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    
+}
+ul li{
+    padding: .5rem 0;
+}
+.list-of {
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: aquamarine;
+}

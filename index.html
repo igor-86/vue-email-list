@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <!-- Vue -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.41/vue.global.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="app">
+        <div class="list-of">
+            <ul>
+                <li v-for="(email, index) in listMail">
+                    {{email}}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
